@@ -1,19 +1,7 @@
 
-main {
-    flex: 1;
-    /* padding: 40px 20px; */
-    background-color: #fff8e1;
-    text-align: center;
-}
-body {
-    display: flex;
-    flex-direction: column;
-}
-h1 {
-  color: #333;
+.menu-section h1 {
+  color: #ff7043;
   font-size: 32px;
-  margin-bottom: 40px;
-  margin-top: 100px;
 }
 
 .menu-container {
@@ -65,4 +53,18 @@ h1 {
 .note a {
     color: #f8aa3e;
     text-decoration: none;
+}
+#menu-main {    
+    /* text-align: center; */
+    background-color: #FFF8E1;
+    
+}
+.menu-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 60px;
 }
