@@ -23,7 +23,7 @@
     align-items: center;
     list-style: none;
     width: 100px;
-    height: 50px;
+    height: 70px;
 }
 .nav-links a {
     text-decoration: none;
@@ -35,11 +35,13 @@
     object-fit: cover;
     margin-left: 300px;
 }
-li:hover{
+li a:hover{
     background-color: orange;
     border-radius: 8px;
+    padding: 15px;
+    margin: 0 auto;
     cursor: pointer;
 }
-li:active {
+li a:active {
     background-color: rgb(245, 178, 53);
 }
