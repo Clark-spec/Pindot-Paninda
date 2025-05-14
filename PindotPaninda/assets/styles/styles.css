@@ -1,3 +1,4 @@
+
 /* Section styles */
 @import "navbar.css";
 @import "homesection.css";
@@ -33,4 +34,5 @@
   }
   #header {
     background-color: #FFF8E1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1.0);
   }

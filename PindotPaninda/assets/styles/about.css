@@ -84,6 +84,7 @@ color: #FF7043;
     }
     .our-story {
       margin-top: 50px;
+      margin-bottom: 50px;
     }
     .about-content {
       display: flex;
@@ -102,4 +103,7 @@ color: #FF7043;
   }
   #about-main {
     background-color: #fff8e1;
+  }
+  .subtitle{
+    margin-bottom: 50px;
   }

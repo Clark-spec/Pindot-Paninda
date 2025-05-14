@@ -15,13 +15,14 @@
     background-color: white;
     border-radius: 20px;
     padding: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
 }
 .menu-item img {
     width: 100%;
     height: 150px;
     object-fit: cover;
     border-radius: 15px;
+    border: 2px solid #ffa726;
 }
 .menu-item h3 {
     margin-top: 15px;
@@ -55,7 +56,7 @@
     text-decoration: none;
 }
 #menu-main {    
-    /* text-align: center; */
+    text-align: center;
     background-color: #FFF8E1;
     
 }
@@ -67,4 +68,31 @@
     align-items: center;
     height: 100%;
     gap: 60px;
+}
+
+
+
+.quantity-input {
+    width: 200px;
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #000000;
+    /* border-radius: 10px; */
+    outline: none;
+}
+
+.order {
+    width: 500px;
+    height: 50px;
+}
+.buttons {
+    margin-top: 50px;
+}
+#grilled-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF8E1;
 }
