@@ -23,7 +23,7 @@
 .home-container1 p {
     font-size: 24px;
 }
-.search {
+/* .search {
     width: 300px;
     height: 40px;
     border: solid 1px white;
@@ -33,11 +33,11 @@
     position: absolute;
     top: 15px;
     right: 15px;
-}
+} */
 .search-con {
     text-align: end ;
     padding: 10px;
-}
+} 
 
 .home-section2 {
   justify-content: center;
@@ -70,9 +70,75 @@
 }
 .image b {
     margin-top: 10px;
-    font-weight: bold;
+    color: #333;
   }
   #home-main {
     background-color:  #fff8e1;
     text-align: center;
   }
+
+  /* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust Home Section 1 */
+    .home-container1 {
+        height: 300px;
+    }
+    
+    .home-container1 h1 {
+        font-size: 28px;
+    }
+
+    .home-container1 p {
+        font-size: 20px;
+    }
+
+    /* Adjust Search Bar */
+    /* .search {
+        width: 250px;
+        font-size: 16px;
+    } */
+
+    /* Stack images vertically for small screens */
+    .home-container2 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .image img {
+        width: 200px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust Home Section 1 */
+    .home-container1 {
+        height: 250px;
+        padding: 20px;
+    }
+
+    .home-container1 h1 {
+        font-size: 24px;
+    }
+
+    .home-container1 p {
+        font-size: 18px;
+    }
+
+    /* Adjust Search Bar */
+    /* .search {
+        width: 200px;
+        font-size: 14px;
+    } */
+
+    /* Stack images with smaller text for extra small screens */
+    .home-container2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image img {
+        width: 180px;
+        height: 150px;
+    }
+}

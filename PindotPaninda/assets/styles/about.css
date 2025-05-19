@@ -1,68 +1,9 @@
-/* .about-section {
-      
-    color: #333;
-    padding: 2rem;
-}
 
-.about-section h1 {
-    color: #FF7043;
-    text-align: center;
-}
-
-.about-text {
-    width: 70%;
-}
-
-.subtitle {
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 2rem;
-}
-.about-content {
-      display: flex;
-      gap: 2rem;
-      flex-wrap: wrap;
-      justify-content: center;  
-      align-items: center;
-    }
-    .about-img {
-      width: 300px;
-      border-radius: 15px;
-    }
-    .about-text {
-      max-width: 600px;
-    }
-    .about-text h2, .about-text h3 {
-      color: #FF7043;
-    }
-    .our-story {
-      margin-top: 3rem;
-      text-align: center;
-    }
-    .our-story h2 {
-      color: #FF7043;
-    }
-    .our-gallery {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 2rem;
-    }
-    .our-gallery img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-
-    .about-header {
-        background-color: #FF7043;
-    } */
 
     .about-section1 {
       text-align: center;
       margin-bottom: 80px;
+      margin-top: 50px;
     }
     .about-section2 {
       text-align: center;
@@ -107,3 +48,64 @@ color: #FF7043;
   .subtitle{
     margin-bottom: 50px;
   }
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .about-section1 h1, .about-section2 h3 {
+        font-size: 1.5rem;
+    }
+    
+
+    .about-text p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .two-column {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center;
+    }
+
+    .row {
+        width: 100%; /* Full width on mobile */
+        margin-bottom: 20px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+.about-content {
+        /* flex-direction: column;
+        align-items: center; */
+        gap: 50px;
+        margin-bottom: 50px;
+      }
+    .images {
+        width: 50%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-section1 h1, .about-section2 h3 {
+        font-size: 1.2rem;
+    }
+
+    .about-text p {
+        font-size: 0.9rem;
+        padding: 20px;
+    }
+    .about-content {
+        /* flex-direction: column;
+        align-items: center; */
+        gap: 50px;
+      }
+    .images {
+      width: 90%;
+        padding: 5px;
+    }
+    .row p {
+      padding: 20px;
+    }
+}
